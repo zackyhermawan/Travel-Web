@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel</title>
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container-gallery">
+      <nav class="navbar">
+        <div class="nav-logo">
+          <h2>Trip<span>Boss</span></h2>
+        </div>
+
+        <div class="nav-link">
+          <a href="home.html">Home</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="blog.html">Blog</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="nav-extra">
+          <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- mid -->
+    <div class="mid-gallery">
+      <div class="mid-logo">
+        <h1>Contact</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nemo dolore quam magnam rem architecto recusandae esse voluptatem non pariatur?</p>
+      </div>
+    </div>
+
+    <section class="contact">
+      <div class="contact-logo">
+        <p>GET IN TOUCH WITH US</p>
+        <h2>CONTACT US</h2>
+      </div>
+
+      <form action="https://api.web3forms.com/submit" method="POST" class="form">
+        <div class="item1">
+          <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+          <input type="text" name="name" id="name" placeholder="Your name" />
+          <input type="text" name="email" id="email" placeholder="Your email" />
+          <textarea name="message" id="message" placeholder="Your message"></textarea>
+          <button class="submit">Send Message</button>
+        </div>
+
+        <div class="item2">
+          <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+62-822-210-029-87</p>
+            </div>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <div class="text">
+              <h3>Addres</h3>
+              <p>Jatisari, Cokro, Blado, Batang</p>
+            </div>
+          </div>
+          <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+            <div class="text">
+              <h3>Phone</h3>
+              <p>+62-822-210-029-87</p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-header">
+        <div class="content">
+          <h2>Trip<span>Boss</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate qui adipisci eum aspernatur eveniet ratione temporibus hic, praesentium dicta voluptatibus architecto sit neque. Sit saepe sint fugiat molestiae voluptates
+            nesciunt!
+          </p>
+        </div>
+        <div class="content">
+          <h3>Follow Us On:</h3>
+          <div class="icon">
+            <a href="https://www.facebook.com/Sultanzakii" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/zackyhermawann_" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>Popular Places:</h3>
+          <div class="list">
+            <p>Thailand</p>
+            <p>Australia</p>
+            <p>Maldives</p>
+            <p>Switzerland</p>
+            <p>Germany</p>
+          </div>
+        </div>
+        <div class="content">
+          <h3>Subscribe for Newsletter</h3>
+          <form class="form-footer">
+            <input type="text" name="email" placeholder="Enter Email" autocomplete="email" />
+            <a href="" class="btn">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
